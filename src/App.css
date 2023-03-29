@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.btn:active,
+.btn:active,
+.btn:focus,
+.btn:focus,
+.btn:hover,
+.btn:hover {
+  border: none !important;
+  outline: none !important;
+  /* box-shadow: none !important; */
+}
+
+ul li {
+  list-style-type: none;
 }
