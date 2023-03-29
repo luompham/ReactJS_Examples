@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 
 
 const ToDoList = () => {
@@ -42,7 +42,7 @@ const ToDoList = () => {
     }
     return (
         <>
-
+            <h1>To Do List</h1>
             <input
                 value={input}
                 onChange={e => handleChange(e.target.value)}
@@ -68,4 +68,4 @@ const ToDoList = () => {
 
 
 
-export default ToDoList;
+export default memo(ToDoList);

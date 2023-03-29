@@ -17,6 +17,7 @@ const GetRandomGift = () => {
     }
     return (
         <>
+            <h1>Random Gift</h1>
             <h1 className="my-3">{gift ?? 'Chưa có phần thưởng'}</h1>
             <button className="btn btn-primary my-3" onClick={handleClick}>Lấy thưởng</button>
         </>
